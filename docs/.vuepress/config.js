@@ -15,4 +15,13 @@ module.exports = {
   },
   head: [["link", { rel: "icon", href: "/assets/icon.jpg" }]],
   dest: "./dist",
+  plugins: [
+    [
+      "@vuepress/plugin-search",
+      {
+        // 排除首页
+        isSearchable: (page) => page.path !== "/",
+      },
+    ],
+  ],
 };
