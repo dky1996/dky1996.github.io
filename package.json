@@ -1,0 +1,19 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "push": "vuepress build docs&&git add docs/.vuepress/dist -f&&git commit -m \"提交构建\"&&git push"
+  },
+  "keywords": [],
+  "author": "dky",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.36",
+    "vuepress": "^2.0.0-beta.36"
+  },
+  "packageManager": "yarn@1.22.17"
+}
