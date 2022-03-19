@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "push": "vuepress build docs&&git add docs/.vuepress/dist -f&&git commit -m \"提交构建\"&&git push"
+    "push:gitee": "vuepress build docs&&git add docs/.vuepress/dist -f&&git commit -m \"提交构建\"&&git push gitee master",
+    "push:github": "vuepress build docs&&git add docs/.vuepress/dist -f&&git commit -m \"提交构建\"&&git push github master"
   },
   "keywords": [],
   "author": "dky",
