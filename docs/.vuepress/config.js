@@ -23,5 +23,6 @@ module.exports = {
         isSearchable: (page) => page.path !== "/",
       },
     ],
+    ["@vuepress/plugin-shiki", { theme: "one-dark-pro" }],
   ],
 };
