@@ -1,8 +1,6 @@
 ---
-lang: zh-CN
 title: 目录
 description: 本站的目录
-date: 2022-03-12
 ---
 
 # 目录

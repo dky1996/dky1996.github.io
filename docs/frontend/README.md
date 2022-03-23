@@ -1,5 +1,4 @@
 ---
-lang: zh-CN
 title: 前端
 description: 前端的目录
 ---
